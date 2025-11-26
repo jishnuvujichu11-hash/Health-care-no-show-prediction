@@ -1,6 +1,6 @@
 # Health-care-no-show-prediction
 Predicting whether a patient will miss their scheduled medical appointment using machine learning, explainability (SHAP), and Power BI analytics.
-#Project Overview
+# Project Overview
 
 Across healthcare systems, approximately 1 in 4 scheduled appointments turn into a No-Show. This results in:
 Financial losses for hospitals and doctors due to unused appointment slots
@@ -8,7 +8,7 @@ Delayed treatment for other patients who could have taken those slots
 Goal of this project:
 To analyze patient appointment behavior and predict the probability of a No-Show, so clinics and hospitals can improve overbooking policies, reminders, and resource planning.
 
-#Dataset Description (KaggleV2-May-2016)
+# Dataset Description (KaggleV2-May-2016)
 This project uses the famous Brazilian Medical Appointment No-Show dataset.
 
 Columns Description
@@ -27,7 +27,7 @@ Handcap – Number of disabilities (0–4)
 SMS_received – Number of SMS reminders sent
 No-show – Whether the patient missed the appointment
 
-#Machine Learning Workflow
+# Machine Learning Workflow
 Data Cleaning & Transformation
 Converted date formats
 Calculated LeadDays (Scheduled → Appointment gap)
